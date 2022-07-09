@@ -1,0 +1,11 @@
+.statisticsList {
+  list-style: none;
+  justify-content: center;
+  justify-content: baseline;
+}
+
+.statisticsItem {
+  margin-bottom: 10px;
+  color: blueviolet;
+  font-weight: 700;
+}
