@@ -4,7 +4,7 @@ import style from './FeedbackOptions.module.css';
 
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
-    <div className={style.btnContainer}>
+    <span className={style.btnContainer}>
       {options.map(name => {
         return (
           <button
@@ -17,7 +17,7 @@ const FeedbackOptions = ({ options, onLeaveFeedback }) => {
           </button>
         );
       })}
-    </div>
+    </span>
   );
 };
 

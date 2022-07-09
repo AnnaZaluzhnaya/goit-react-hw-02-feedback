@@ -1,5 +1,6 @@
 .btnContainer {
-  text-align: center;
+  justify-content: baseline;
+  padding: 140px;
 }
 
 .btn {
